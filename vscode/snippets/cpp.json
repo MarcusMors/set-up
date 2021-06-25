@@ -1,0 +1,277 @@
+{
+  "C++ main": {
+    "prefix": "mors:init",
+    "body": [
+      "#include <iostream>",
+      "",
+      "",
+      "using namespace std;",
+      "",
+      "int main()",
+      "{",
+      "\t",
+      "\t",
+      "\treturn 0;",
+      "}"
+    ],
+    "description": "C++ main",
+  },
+  "lib init": {
+    "prefix": "mors:lib-init",
+    "body": [
+      "#include <iostream>",
+      "",
+      "",
+      "using namespace std;",
+      "",
+      "int main()",
+      "{",
+      "\t",
+      "\t",
+      "\treturn 0;",
+      "}",
+    ],
+    "description": "C++ main",
+  },
+  "Time libs": {
+    "prefix": "mors:time",
+    "body": [
+      "#include <chrono>\t// Primitives for asynchronous computations",
+      "#include <ctime>\t// C-style time/date utilites",
+    ],
+    "description": "Time libs"
+  },
+  "Algorithms libs": {
+    "prefix": "mors:algorithms",
+    "body": [
+      "#include <algorithm>\t// Algorithms that operate on ranges",
+      "#include <cstdlib>\t// General purpose utilities: program control, dynamic memory allocation, random numbers, sort and search",
+      "#include <execution>\t// (C++17) Predefined execution policies for parallel versions of the algorithms ",
+      "#include <numeric>\t// Numeric operations on values in ranges",
+    ],
+    "description": "Algorithms libs"
+  },
+  "Iterators libs": {
+    "prefix": "mors:iterators",
+    "body": [
+      "#include <iterator>\t// Range iterators",
+    ],
+    "description": "Iterators libs"
+  },
+  "Regular Expressions libs": {
+    "prefix": "mors:regular-expressions",
+    "body": [
+      "#include <regex>\t// (C++11) Classes, algorithms and iterators to support regular expression processing",
+    ],
+    "description": "Regular Expressions libs"
+  },
+  "Range libs": {
+    "prefix": "mors:range",
+    "body": [
+      "#include <ranges>\t// (C++17) Range access, primitives, requirements, utilities and adaptors",
+    ],
+    "description": "Ranges libs"
+  },
+  "I/O and formatting": {
+    "prefix": "mors:I/O_formatting",
+    "body": [
+      "#include <>\t// ",
+      "#include <cinttypes>\t// (C++11) Formatting macros, intmax_t and uintmax_t math and conversions",
+      "#include <cstdio>\t// C-style input-output functions",
+      "#include <filesystem>\t// (C++17) std::path class and supporting functions",
+      "#include <fstream>\t// std::basic_fstream, std::basic_ifstream, std::basic_ofstream class templates and several typedefs ",
+      "#include <iomapip>\t// Helper functions to control the format of input and output",
+      "#include <ios>\t// std::ios_base class, std::basic_ios class template and several typedefs",
+      "#include <iosfwd>\t// Forward declarations of all classes in the input/output library",
+      "#include <iostream>\t// Several standard stream objects",
+      "#include <istream>\t// std::basic_istream class template and several typedefs ",
+      "#include <ostream>\t// std::basic_ostream, std::basic_iostream class templates and several typedefs ",
+      "#include <sstream>\t// std::basic_stringstream, std::basic_istringstream, std::basic_ostringstream class templates and several typedefs",
+      "#include <streambuf>\t// std::basic_streambuf class template ",
+      "#include <strstream>\t// (deprecated C++98) std::strstream, std::istrstream, std::ostrstream",
+      "#include <syncstream>\t// (C++20) std::basic_osyncstream, std::basic_syncbuf, and typedefs ",
+    ],
+    "description": "I/O and formatting"
+  },
+  "Language Support libs": {
+    "prefix": "mors:language",
+    "body": [
+      "#include <cfloat>\t// Limits of floating-point types",
+      "#include <climits>\t// Limits of integral types",
+      "#include <codecvt>\t// (C++11)(deprecated in C++17) nicode conversion facilities",
+      "#include <compare>\t// (C++20) Three-way comparison operator support",
+      "#include <contract>\t// (C++20) design by contract or contract programming",
+      "#include <coroutine>\t// (C++20) Coroutine support library",
+      "#include <csetjmp>\t// Macro (and function) that saves (and jumps) to an execution context",
+      "#include <csignal>\t// Functions and macro constants for signal management",
+      "#include <cstdarg>\t// Handling of variable length argument lists",
+      "#include <cstddef>\t// Standard macros and typedefs",
+      "#include <cstdint>\t// (C++11) Fixed-width integer types and limits of other types",
+      "#include <cstdlib>\t// General purpose utilities: program control, dynamic memory allocation, random numbers, sort and search",
+      "#include <exception>\t// Exception handling utilities",
+      "#include <initializer_list>\t// (C++11) std::initializer_list class template ",
+      "#include <limits>\t// Uniform way to query properties of arithmetic types",
+      "#include <new>\t// Low-level memory management utilities",
+      "#include <typeinfo>\t// Provides facilities for working with C++ run-time type information.",
+      "#include <version>\t// (C++20) Supplies implementation-dependent library information ",
+    ],
+    "description": "Language Support libs"
+  },
+  "Utilities libs": {
+    "prefix": "mors:utilities",
+    "body": [
+      "#include <any> \t// (C++17) std: :any class",
+      "#include <bitset> \t// std: :bitset class template",
+      "#include <chrono> \t// (C++11) C++ time utilites",
+      "#include <compare> \t// (C++20) Three-way comparison operator support",
+      "#include <csetjmp> \t// Macro (and function) that saves (and jumps) to an execution context",
+      "#include <csignal> \t// Functions and macro constants for signal management",
+      "#include <cstdarg> \t// Handling of variable length argument lists",
+      "#include <cstddef> \t// Standard macros and typedefs",
+      "#include <cstdlib> \t// General purpose utilities: program control, dynamic memory allocation, random numbers, sort and search",
+      "#include <ctime> \t// C-style time/date utilites",
+      "#include <functional> \t// Function objects, Function invocations, Bind operations and Reference wrappers",
+      "#include <initializer_list> \t// (C++11) std: :initializer_list class template",
+      "#include <memory_resource>\t// (C++17) Polymorphic allocators and memory resources",
+      "#include <memory>\t// High-level memory management utilities",
+      "#include <new>\t// Low-level memory management utilities",
+      "#include <optional> \t// (C++17) std: :optional class template",
+      "#include <scoped_allocator>\t// (C++11) Nested allocator class",
+      "#include <source_location> \t// (C++20) Supplies means to obtain source code location",
+      "#include <stacktrace> \t// (C++23) Stacktrace library",
+      "#include <tuple> \t// (C++11) std: :tuple class template",
+      "#include <type_traits> \t// (C++11) Compile-time type information",
+      "#include <typeindex> \t// (C++11) std: :type_index",
+      "#include <typeinfo> \t// Runtime type information utilities",
+      "#include <utility> \t// Various utility components",
+      "#include <variant> \t// (C++17) std: :variant class template",
+      "#include <version> \t// (C++20) Supplies implementation-dependent library information",
+    ],
+    "description": "Utilities libs"
+  },
+  "Dynamic memory management libs": {
+    "prefix": "mors:dynamic",
+    "body": [
+      "#include <memory_resource>\t// (C++17) Polymorphic allocators and memory resources",
+      "#include <memory>\t// High-level memory management utilities",
+      "#include <new>\t// Low-level memory management utilities",
+      "#include <scoped_allocator>\t// (C++11) Nested allocator class",
+    ],
+    "description": "Dynamic memory management libs"
+  },
+  "Error Handling libs": {
+    "prefix": "mors:error",
+    "body": [
+      "#include <cassert>\t// Conditionally compiled macro that compares its argument to zero",
+      "#include <cerrno>\t// Macro containing the last error number",
+      "#include <exception>\t// Exception handling utilities",
+      "#include <stdexcept>\t// Standard exception objects",
+      "#include <system_error>\t// (C++11) Defines std::error_code, a platform-dependent error code",
+    ],
+    "description": "Error Handling libs"
+  },
+  "Strings libs": {
+    "prefix": "mors:strings",
+    "body": [
+      "#include <cctype>\t// Functions to determine the category of narrow characters",
+      "#include <charconv>\t// (C++17) std::to_chars and std::from_chars",
+      "#include <cstring>\t// Various narrow character string handling functions",
+      "#include <cuchar>\t// (C++11) C-style Unicode character conversion functions",
+      "#include <cwchar>\t// Various wide and multibyte string handling functions ",
+      "#include <cwtype>\t// Functions to determine the catagory of wide characters",
+      "#include <format>\t// (C++20) Formatting library including std::format",
+      "#include <regex>\t// (C++11) Classes, algorithms and iterators to support regular expression processing",
+      "#include <string_view>\t// (C++17) std::basic_string_view class template ",
+      "#include <string>\t// std::basic_string class template ",
+    ],
+    "description": "String libs"
+  },
+  "Localization libs": {
+    "prefix": "mors:localization",
+    "body": [
+      "#include <clocale>\t// C localization utilities",
+      "#include <codecvt>\t// (C++11)(deprecated in C++17)Unicode conversion facilities",
+      "#include <ctv/wbuffer>\t// ",
+      "#include <ctv/wstring>\t// ",
+      "#include <locale>\t// Localization utilities",
+    ],
+    "description": "Localization libs"
+  },
+  "Containers libs": {
+    "prefix": "mors:containers",
+    "body": [
+      "#include <array>\t// (C++11) std::array container",
+      "#include <deque>\t// std::deque container",
+      "#include <forward_list>\t// (C++11) std::forward_list container ",
+      "#include <list>\t// std::list container",
+      "#include <map>\t// std::map and std::multimap associative containers",
+      "#include <queue>\t// std::queue and std::priority_queue container adaptors",
+      "#include <set>\t// std::set and std::multiset associative containers",
+      "#include <span>\t// (C++20) std::span view ",
+      "#include <stack>\t// std::stack container adaptor ",
+      "#include <unordered_map>\t// (C++11) std::unordered_map and std::unordered_multimap unordered associative containers",
+      "#include <unordered_set>\t// (C++11) std::unordered_set and std::unordered_multiset unordered associative containers",
+      "#include <vector>\t// std::vector container",
+    ],
+    "description": "Containers libs"
+  },
+  "Thread Support libs": {
+    "prefix": "mors:thread",
+    "body": [
+      "#include <atomic>\t// (C++11) Atomic operations library",
+      "#include <barrier>\t// (C++20) Barriers",
+      "#include <condition_variable>\t// (C++11) Thread waiting conditions",
+      "#include <future>\t// (C++11) Primitives for asynchronous computations",
+      "#include <latch>\t// (C++20) Latches",
+      "#include <mutex>\t// (C++11) Mutual exclusion primitives",
+      "#include <semaphore>\t// (C++20) Semaphores",
+      "#include <shared_mutex>\t// (C++14) Shared mutual exclusion primitives",
+      "#include <stop_token>\t// (C++20)Stop tokens for std::jthread",
+      "#include <thread>\t// (C++11) std::thread class and supporting functions",
+    ],
+    "description": "Thread Support libs"
+  },
+  "Numeric libs": {
+    "prefix": "mors:numeric",
+    "body": [
+      "#include <bit>\t// (C++20) Bit manipulation functions ",
+      "#include <cfenv>\t// (C++11) Floating-point environment access functions ",
+      "#include <cmath>\t// Common mathematics functions",
+      "#include <complex>\t// Complex number type",
+      "#include <numbers>\t// Math constants",
+      "#include <numeric>\t// Numeric operations on values in ranges",
+      "#include <random>\t// (C++11) Random number generators and distributions",
+      "#include <ratio>\t// (C++11) Compile-time rational arithmetic",
+      "#include <valarray>\t// Class for representing and manipulating arrays of values",
+    ],
+    "description": "Numeric libs"
+  },
+  "Numeric Limits libs": {
+    "prefix": "mors:numeric-limits",
+    "body": [
+      "#include <cfloat>\t// Limits of floating-point types",
+      "#include <cinttypes>\t// (C++11) Formatting macros, intmax_t and uintmax_t math and conversions",
+      "#include <climit>\t// Limits of integral types",
+      "#include <cstdint>\t// (C++11) Fixed-width integer types and limits of other types",
+      "#include <limits>\t// Uniform way to query properties of arithmetic types",
+    ],
+    "description": "Numeric Limits libs"
+  }
+  /** std libs reference:
+  * https://en.cppreference.com/w/cpp/header
+  * https://docs.microsoft.com/en-us/cpp/standard-library/cpp-standard-library-header-files?view=msvc-160
+  **/
+  // Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  // 	"prefix": "log",
+  // 	"body": [
+  // 		"console.log('$1');",
+  // 		"$2"
+  // 	],
+  // 	"description": "Log output to console"
+  // }
+}

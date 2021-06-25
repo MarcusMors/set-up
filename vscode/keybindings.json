@@ -1,0 +1,119 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+shift+n",
+    // "when": "",
+    "command": "-workbench.action.newWindow"
+  },
+  // {
+  //   "key": "ctrl+shift+ñ",
+  //   "command": "-workbench.action.newWindow"
+  // },
+  // {
+  //     "key": "ctrl+shift+n",
+  //     "command": "extension.advancedNewFile"
+  // },
+  {
+    "key": "ctrl+alt+n",
+    "command": "-extension.advancedNewFile"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "workbench.action.reloadWindow",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+ctrl+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+shift+5",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "-workbench.view.extensions"
+  },
+  {
+    "key": "ctrl+shift+ñ",
+    "command": "workbench.action.terminal.split",
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "workbench.action.terminal.kill"
+  },
+  // {
+  //   "key": "ctrl+shift+oem_3",
+  //   "command": "-workbench.action.terminal.new"
+  // },
+  {
+    "key": "ctrl+shift+oem_3",
+    "command": "workbench.action.terminal.split",
+    "when": "terminalFocus && terminalProcessSupported"
+  },
+  // {
+  //   "key": "ctrl+shift+5",
+  //   "command": "-workbench.action.terminal.split",
+  //   "when": "terminalFocus && terminalProcessSupported"
+  // },
+  {
+    "key": "ctrl+alt+b",
+    "command": "editor.emmet.action.balanceOut"
+  },
+  {
+    "key": "ctrl+alt+v",
+    "command": "editor.emmet.action.balanceIn"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "workbench.output.action.clearOutput"
+  },
+  {
+    "key": "ctrl+shift+4",
+    "command": "workbench.action.output.toggleOutput",
+    "when": "workbench.panel.output.active"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "-workbench.action.output.toggleOutput",
+    "when": "workbench.panel.output.active"
+  },
+  {
+    "key": "ctrl+shift+3",
+    "command": "workbench.actions.view.problems",
+    "when": "workbench.panel.markers.view.active"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-workbench.actions.view.problems",
+    "when": "workbench.panel.markers.view.active"
+  },
+  {
+    "key": "ctrl+shift+2",
+    "command": "workbench.debug.action.toggleRepl",
+    "when": "workbench.panel.repl.view.active"
+  },
+  {
+    "key": "ctrl+shift+y",
+    "command": "-workbench.debug.action.toggleRepl",
+    "when": "workbench.panel.repl.view.active"
+  },
+  {
+    "key": "ctrl+shift+n",
+    // "when": "",
+    "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "when": "editorTextFocus",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+shift+oem_2",
+    "command": "extension.addDocComments"
+  },
+  // {
+  //   "key": "ctrl+n",
+  //   "command": "-workbench.action.files.newUntitledFile"
+  // },
+]
